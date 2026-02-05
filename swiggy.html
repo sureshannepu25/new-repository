@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swiggy | Order Food Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+        }
+
+        /* Header */
+        .header {
+            background-color: #fc8019;
+            color: white;
+            padding: 20px 60px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .hero-text h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .search {
+            background: white;
+            display: flex;
+            width: 400px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .search input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        .search button {
+            background: #fc8019;
+            border: none;
+            color: white;
+            padding: 0 20px;
+            cursor: pointer;
+        }
+
+        /* Services */
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 60px;
+        }
+
+        .service {
+            width: 250px;
+            text-align: center;
+        }
+
+        .service img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .service h3 {
+            margin-top: 15px;
+        }
+
+        .service p {
+            color: gray;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="nav">
+            <div class="logo">Swiggy</div>
+            <div>
+                <a href="#">Search</a>
+                <a href="#">Offers</a>
+                <a href="#">Help</a>
+                <a href="#">Sign In</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Order food online</h1>
+                <p>From your favourite restaurants near you</p>
+
+                <div class="search">
+                    <input type="text" placeholder="Enter your delivery location">
+                    <button>FIND FOOD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+            <h3>Order Online</h3>
+            <p>Fast delivery to your doorstep</p>
+        </div>
+
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+            <h3>Dining Out</h3>
+            <p>Discover great places to eat</p>
+        </div>
+
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0">
+            <h3>Nightlife</h3>
+            <p>Best clubs and bars near you</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 Swiggy Clone | For Educational Use Only
+    </div>
+
+</body>
+</html>
